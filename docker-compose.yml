@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    image: awesanam/demoapp:2.1
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+    env_file:
+      - ./.env
+    restart: always
