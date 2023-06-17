@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get('/', (req, res ) => 
-    res.json({ message: 'Docker is easy 🐳', env: process.env.TESTING }) 
+    res.json({ message: 'Docker is super easy 🐳', env: process.env.TESTING }) 
 );
 
 const port = process.env.PORT || 8000;
