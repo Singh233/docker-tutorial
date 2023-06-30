@@ -21,6 +21,16 @@ Please note that this repository is currently a work in progress and more conten
 
 While I'm preparing the full content, you can start by cloning this repository and exploring the existing materials. Be sure to check back regularly as we'll be updating the repository with new content.
 
+
+## First things first
+
+Let's start by installing the Docker Engine, the core component of Docker that enables you to build, run, and manage containers. In simple words, the Docker Engine is the runtime environment for containers created using Docker. It is responsible for building, running, and managing containers on a host machine. Follow the official documentation to install Docker Engine:
+
+```bash
+  https://docs.docker.com/engine/install/
+```
+
+
 ## Contributing
 
 Contributions to this Docker tutorial repository are welcome! If you would like to contribute tutorials, examples, or any other Docker-related content, please feel free to open an issue or submit a pull request. Your contributions will help make this tutorial more comprehensive and valuable to the community.
